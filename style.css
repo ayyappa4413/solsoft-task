@@ -44,6 +44,7 @@ nav ul{
     list-style: none;
     gap: 25px;
     background-color: white;
+    padding-top: 15px;
 }
 nav ul li a {
     text-decoration: none;
@@ -148,11 +149,11 @@ nav ul li a {
     overflow: hidden;
     width: 190px;
     height: 60px;
-    background: white;
-    color: #2563EB;
+    background: #FFFFFF;
+    color: #0554F2;
     border: none;
     border-radius: 6px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     z-index: 1;
@@ -255,6 +256,185 @@ nav ul li a {
 .card .rm-btn{
     width:220px;
     height:60px;
+    font-size: 18px;
     align-items: center;
     border: 1px solid blue;
+}
+
+#about{
+    background-color: #EFF4FA  ;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+.images{
+    background-image: url(https://sol-soft-html.vercel.app/images/home2/about/3.png), url(https://sol-soft-html.vercel.app/images/home2/about/1.png) , url(https://sol-soft-html.vercel.app/images/home2/about/2.png);
+    background-position: left top, right top, left bottom;
+    background-repeat: no-repeat,no-repeat, no-repeat;
+    background-size:
+        225px 220px,
+        300px 400px, 
+        330px 350px;
+    margin-left: 80px;
+    margin-right: 70px;
+    border-radius: 10px;
+}
+
+.by-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+    padding: 20px;  
+    border-radius: 10px;
+    top: 100px;
+    left: 150px;
+    margin: 190px;
+}
+
+.by-logo img{
+    width: 42px;
+    height: 60px;
+}
+
+.by-logo #solsoft{
+    color: #212529;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+
+.about-text{
+    margin-right: 60px;
+}
+
+.about-heading{
+    color: #0554F2;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.quote{
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+#finish-txt{
+    color: #0554F2
+}
+
+
+.lorem{
+    color: #9297A0;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.li{
+    margin: 30px 0px 16px;
+}
+
+.about-text ul li{
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold   ;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 18px;
+    color: #212529;
+}
+
+.fa-sharp{
+    font-size: 28px;   
+    color: #2563EB;    
+    margin-right: 12px;  
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.fa-sharp:hover{
+    color: #0d6efd;
+    transform: scale(1.2);
+}
+
+li{
+    color: #212529;
+    font-size: 16px;
+    margin: 0 0 18px;
+}
+
+.we{
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin-top: 30px;
+    height: 50px;
+    padding: 15px 20px;
+    background: white;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.bulb-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0554F2;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 27px;
+}
+
+.wec{
+    max-width: 280px;
+    width: 100%;
+    color: #212529;
+    font-size: 18px ;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.ges{
+    display: flex;
+    margin: 50px 0px 0px;
+}
+
+.phone{
+    display: flex;
+}
+
+.phone-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0554F2;
+    background-color: white;
+    width: 57px;
+    height: 57px;
+    border: 2px solid #0554F2;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 27px;
+    cursor: pointer;
+}
+
+.phone-icon i{
+    font-size: 32px;
+}
+
+.text{
+    margin-top: 12px;
+}
+
+.text p{
+    color: #9297A0;
 }
